@@ -7,6 +7,7 @@ void main() {
       appBar: AppBar(
         title: Text('Weather App',),
         centerTitle: true,
+        backgroundColor: Colors.red[400],
       ),
       body: Center(
         child: Text('hello'),
