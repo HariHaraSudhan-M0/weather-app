@@ -13,8 +13,9 @@ void main() {
         child: Text('hello'),
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {  },
+          onPressed: () {},
           child: Text('button'),
+          backgroundColor:Colors.red[200],
         ),
     ), 
   ));
