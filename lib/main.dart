@@ -14,6 +14,9 @@ void main() {
           'hello',
           style: TextStyle(
             fontSize:40,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2,
+            color: Colors.blue[400],
           )
         ),
         ),
