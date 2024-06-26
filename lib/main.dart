@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -7,6 +8,7 @@ void main() {
         title: Text('Weather App',),
         centerTitle: true,
       ),
+      body: Text('hello'),
     ), 
   ));
 }
