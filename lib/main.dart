@@ -4,7 +4,8 @@ void main() {
   runApp(MaterialApp(
     home:Scaffold(
       appBar: AppBar(
-        title: Text('weather app'),
+        title: Text('Weather App',),
+        centerTitle: true,
       ),
     ), 
   ));
