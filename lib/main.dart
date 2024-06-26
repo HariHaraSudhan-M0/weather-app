@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Text('hello'),
+    home:Scaffold(
+      appBar: AppBar(
+        title: Text('weather app'),
+      ),
+    ), 
   ));
 }
 
