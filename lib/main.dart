@@ -10,7 +10,12 @@ void main() {
         backgroundColor: Colors.red[400],
       ),
       body: Center(
-        child: Text('hello'),
+        child: Text(
+          'hello',
+          style: TextStyle(
+            fontSize:40,
+          )
+        ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
