@@ -11,6 +11,10 @@ void main() {
       body: Center(
         child: Text('hello'),
         ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {  },
+          child: Text('button'),
+        ),
     ), 
   ));
 }
