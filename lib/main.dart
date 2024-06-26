@@ -8,7 +8,9 @@ void main() {
         title: Text('Weather App',),
         centerTitle: true,
       ),
-      body: Text('hello'),
+      body: Center(
+        child: Text('hello'),
+        ),
     ), 
   ));
 }
