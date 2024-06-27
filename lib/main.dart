@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-void main() {
+void main() =>
   runApp(MaterialApp(
-    home:Scaffold(
+    home: Home(),
+  ) );
+
+
+class Home extends StatelessWidget {
+  const Home({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         title: Text('Weather App',),
         centerTitle: true,
@@ -25,16 +34,8 @@ void main() {
           child: Text('button'),
           backgroundColor:Colors.red[200],
         ),
-    ), 
-  ));
-}
-
-class Home extends StatelessWidget {
-  const Home({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
+    );
+    
   }
 }
 
