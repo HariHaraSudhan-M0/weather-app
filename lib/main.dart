@@ -21,6 +21,7 @@ class Home extends StatelessWidget {
       body:  Center(
         child: TextButton(
           onPressed: () {
+            print('click noticed');
           },
           child: Text('click me'),
           ),
