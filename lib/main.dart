@@ -19,7 +19,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[400],
       ),
       body:  Center(
-        child: ElevatedButton(
+        child: TextButton(
           onPressed: () {
           },
           child: Text('click me'),
