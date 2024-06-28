@@ -19,8 +19,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[400],
       ),
       body: const Center(
-        child: Image(
-          image: AssetImage('/Users/hari/Documents/flutterproj/weatherapp/android/assets/space2.jpg'),
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.blueAccent,
+          size:50,
         ),
       ),
         floatingActionButton: FloatingActionButton(
