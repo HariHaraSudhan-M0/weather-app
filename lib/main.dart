@@ -19,9 +19,11 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('Weather App',),
         centerTitle: true,
-        backgroundColor: Colors.red[400],
+        backgroundColor: Colors.amber,
       ),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
          Text('hello'),
          TextButton(
