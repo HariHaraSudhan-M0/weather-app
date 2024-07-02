@@ -24,6 +24,9 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         children: [
+          Expanded(child:Image.asset('assets/space2.jpg'),
+          flex:5,
+          ),
           Expanded(
           flex:3,
           child: Container(
