@@ -24,21 +24,24 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         children: [
-          Expanded(child: 
-          Container(
+          Expanded(
+          flex:3,
+          child: Container(
            padding: EdgeInsets.all(30),
            color: Colors.cyan,
            child : Text('there'),
           ),),
-          Expanded(child: 
-          Container(
+          Expanded(
+          flex:2,
+          child: Container(
             padding: EdgeInsets.all(30),
            color: Colors.pinkAccent,
            child : Text('it'),
           ),
           ),
-          Expanded(child: 
-          Container(
+          Expanded(
+            flex:3,
+          child: Container(
             padding: EdgeInsets.all(30),
            color: Colors.amberAccent,
            child : Text('is'),
