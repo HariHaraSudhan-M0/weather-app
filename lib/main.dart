@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 void main() =>
@@ -19,23 +20,28 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('Weather App',),
         centerTitle: true,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.red[300],
       ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-         Text('hello'),
-         TextButton(
-          onPressed:() {},
-          child:Text('click'),          
-         ), 
-         Container(
-          padding: EdgeInsets.all(30),
-          child: Text('inside container'),
-         )
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+          Container(
+            padding: EdgeInsets.all(20),
+            color: Colors.cyanAccent,
+            child: Text('there'),
+          ),
+          Container(
+            padding: EdgeInsets.all(40),
+            color: Colors.pinkAccent,
+            child: Text('it'),
+          ),
+          Container(
+            padding: EdgeInsets.all(60),
+            color: Colors.amberAccent,
+            child: Text('is'),
+          ),
         ],
-        ),
+      ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Text('button'),
