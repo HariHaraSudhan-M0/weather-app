@@ -1,3 +1,6 @@
+import 'dart:ui';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -18,10 +21,19 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[400],
       ),
-      body:  Padding(
-        padding: EdgeInsets.all(90),
-        child: Text('hello'),
-      ),
+      body: Row(
+        children: [
+         Text('hello'),
+         TextButton(
+          onPressed:() {},
+          child:Text('click'),          
+         ), 
+         Container(
+          padding: EdgeInsets.all(30),
+          child: Text('inside container'),
+         )
+        ],
+        ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Text('button'),
